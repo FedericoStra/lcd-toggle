@@ -4,7 +4,7 @@ CFLAGS += -std=c17 -Wall -O2
 
 all: lcd-toggle
 
-install:
+install: all
 	install -m 4755 lcd-toggle /usr/local/bin/
 
 clean:
